@@ -45,12 +45,13 @@ const Chatbot = () => {
           display: "flex",
           flexDirection: "column",
           gap: "10px",
+          backgroundColor: "#f5f4f2",
         }}
       >
         {/* 챗봇 메시지 */}
         <div
           style={{
-            backgroundColor: "#e2e2e2",
+            backgroundColor: "#e1dfd9",
             padding: "10px 15px",
             borderRadius: "15px 15px 15px 15px",
             maxWidth: "80%",
@@ -112,7 +113,7 @@ const Chatbot = () => {
           padding: "30px",
           display: "flex",
           gap: "10px",
-          backgroundColor: "#ececec",
+          backgroundColor: "#ebeae5",
           borderRadius: "0 0 15px 15px",
         }}
       >
